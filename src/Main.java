@@ -4,14 +4,15 @@ public class Main {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
 
-        // Data pengguna
+        // Data pengguna/variabel
         String adminUsername = "admin";
         String adminPassword = "admin123";
-        String mahasiswaNIM = "123456789012345"; // Contoh NIM dengan panjang 15
+        String mahasiswaNIM = "123456789012345"; // Contoh NIM harus 15
 
         while (true) {
+            //while adalahProgram menggunakan perulangan tak terbatas agar dapat terus berjalan hingga pengguna memilih opsi untuk keluar.
             // Meminta pengguna untuk memilih jenis login atau exit
-            System.out.println("Silakan pilih jenis login atau ketik 'exit' untuk keluar:");
+            System.out.println("===== Libary Syistem=====");
             System.out.println("1. Admin");
             System.out.println("2. Mahasiswa");
             System.out.println("3. Exit");
